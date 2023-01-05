@@ -3,6 +3,7 @@ html {
 }
 
 * {
+    box-sizing: border-box;
     /* border: 1px dashed palevioletred; */
 }
 
@@ -42,7 +43,6 @@ h1 {
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    position: relative;
     padding: 20px;
 }
 
@@ -52,7 +52,6 @@ nav {
     font-size: 30px;
     text-decoration: none;
     list-style-type: none;
-    position: relative;
     padding-top: 20px;
 
 }
@@ -65,5 +64,9 @@ ul li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+
+}
+
+footer {
 
 }
